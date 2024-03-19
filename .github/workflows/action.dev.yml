@@ -7,8 +7,6 @@ on:
   pull_request:
     types:
       - closed
- # 이부분은 위의 trigger가 없어도 수동으로 동작 할 수 있게끔 해주는 역할을 합니다.
- workflow_dispatch:
 
 jobs:
   deploy:
