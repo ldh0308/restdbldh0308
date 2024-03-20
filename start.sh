@@ -2,6 +2,6 @@
 
 cd /home/ubuntu/app/restdb
 
-./gradlew bootRun
+./gradlew clean bootJar
 
 sudo docker compose -f docker-compose.yml up -d
